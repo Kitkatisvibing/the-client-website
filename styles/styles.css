@@ -1,1 +1,64 @@
 /* CSS */
+body{
+	font-family:poppins,helvetica,arial,sans-serif;
+	font-size:16px;
+	text-align:center;
+	background-image:
+		linear-gradient(#3F93B7,#1C5872);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+	font-size:28px;
+	font-weight:600;
+	display:inline-flex;
+	background-color:#1C5872;
+	border-radius: 20px;
+	padding: 5px 30px 5px 30px;
+}
+
+h2{
+	font-size:20px;
+	font-weight:600;
+}
+
+.menubutton{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.menu{
+	max-width: 960px;
+	margin: auto;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr;
+	grid-gap:1em;
+}
+
+.home{
+	grid-column-start:2;
+}
+
+.testing{
+	grid-column-start:3;
+}
+
+.lessons{
+	grid-column-start:2;
+	grid-row-start:2;
+}
+
+.settings{
+	grid-column-start:3;
+	grid-row-start:2;
+}
+
+.profile{
+	grid-column-start:2;
+	grid-row-start:3;
+}
