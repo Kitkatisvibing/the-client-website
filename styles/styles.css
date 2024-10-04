@@ -25,6 +25,10 @@ h2{
 	font-weight:600;
 }
 
+a{
+	text-decoration:none;
+}
+
 .menubutton{
 	position: absolute;
 	bottom: 0;
@@ -32,7 +36,6 @@ h2{
 }
 
 .menu{
-	max-width: 960px;
 	margin: auto;
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
@@ -41,24 +44,41 @@ h2{
 }
 
 .home{
+	background-color:#3D7A95;
+	border: 2px solid #ffcd45;
+	border-radius: 1em;
+	border-radius: 20px;
 	grid-column-start:2;
 }
 
 .testing{
+	background-color:#4D7EB7;
+	border: 2px solid #ffcd45;
+	border-radius: 1em;
+	border-radius: 20px;
 	grid-column-start:3;
 }
 
 .lessons{
+	border: 2px solid #ffcd45;
+	border-radius: 1em;
+	border-radius: 20px;
 	grid-column-start:2;
 	grid-row-start:2;
 }
 
 .settings{
+	border: 2px solid #ffcd45;
+	border-radius: 1em;
+	border-radius: 20px;
 	grid-column-start:3;
 	grid-row-start:2;
 }
 
 .profile{
+	border: 2px solid #ffcd45;
+	border-radius: 1em;
+	border-radius: 20px;
 	grid-column-start:2;
 	grid-row-start:3;
 }
