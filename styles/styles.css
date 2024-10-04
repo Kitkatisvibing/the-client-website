@@ -5,10 +5,10 @@ body{
 	text-align:center;
 	background-image:
 		linear-gradient(#3F93B7,#1C5872);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 h1{
