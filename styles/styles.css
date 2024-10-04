@@ -47,7 +47,6 @@ a{
 	background-color:#3D7A95;
 	border: 2px solid #ffcd45;
 	border-radius: 1em;
-	border-radius: 20px;
 	grid-column-start:2;
 }
 
@@ -55,7 +54,6 @@ a{
 	background-color:#4D7EB7;
 	border: 2px solid #ffcd45;
 	border-radius: 1em;
-	border-radius: 20px;
 	grid-column-start:3;
 }
 
@@ -63,7 +61,6 @@ a{
 	background-color:#954BE2;
 	border: 2px solid #ffcd45;
 	border-radius: 1em;
-	border-radius: 20px;
 	grid-column-start:2;
 	grid-row-start:2;
 }
@@ -72,7 +69,6 @@ a{
 	background-color:#06A192;
 	border: 2px solid #ffcd45;
 	border-radius: 1em;
-	border-radius: 20px;
 	grid-column-start:3;
 	grid-row-start:2;
 }
@@ -81,7 +77,6 @@ a{
 	background-color:#EA775E;
 	border: 2px solid #ffcd45;
 	border-radius: 1em;
-	border-radius: 20px;
 	grid-column-start:2;
 	grid-row-start:3;
 }
