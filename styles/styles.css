@@ -33,6 +33,8 @@ a{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	background-color:#292929;
+	opacity:95%
 }
 
 .menu{
