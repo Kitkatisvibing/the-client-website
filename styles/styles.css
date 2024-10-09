@@ -38,6 +38,27 @@ img{
 	height: 50%;
 }
 
+.speechbubble{
+	display:inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	padding: 15px 1px;
+}
+
+.storiesbutton{
+    display: inline-flex;
+	justify-content: center;
+    width: 115px;
+    height: 25px;
+    background: #954BE2;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
 .mouse{
 	margin-top:15%;
 	display:flex;
