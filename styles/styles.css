@@ -39,13 +39,28 @@ img{
 }
 
 .speechbubble{
-	display:inline-flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: whitesmoke;
-	border-radius: 20px;
-	padding: 15px 1px;
+    position: relative;
+    background: white;
+    color: black; 
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.speechbubble::after{
+	content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #fff transparent transparent;
+    bottom: -16px;
+    left: 17%;
+    margin-left: -10px;
 }
 
 .storiesbutton{
@@ -119,10 +134,20 @@ img{
 		grid-row-start:3;
 	}
 	
-@media screen and (min-width:730px) {
+@media screen and (min-width:600px) {
 	.mouse{
-		margin-top:-9%;
-		scale:70%;
+		margin-top:-10%;
+		scale:60%;
 		align-items: flex-start;
+	}
+
+	.speechbubble{
+		display:inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: whitesmoke;
+		border-radius: 20px;
+		padding: 15px 5px;
 	}
 }
