@@ -3,6 +3,8 @@ body{
 }
 
 header{
+    position: sticky;
+    top:0px;
     display: flex;
     justify-content: space-evenly;
     background-color: blue;
@@ -16,7 +18,5 @@ img{
     /* margin: 0%;
     position: absolute;
     z-index: -1; */
-
-    overflow: hidden;
     width:100%;
 }
