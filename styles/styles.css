@@ -1,1 +1,22 @@
-/* CSS */
+body{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+nav{
+    display: none;
+}
+
+img{
+    /* margin: 0%;
+    position: absolute;
+    z-index: -1; */
+
+    overflow: hidden;
+    width:100%;
+}
